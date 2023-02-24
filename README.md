@@ -8,7 +8,7 @@
 ### When not to use dynamic crons
 
 1. If vms have very very small memory space
-2. when one time tasks exceeds more than a threshold of 9000 at any given time
+2. when one time tasks exceeds more than a threshold of 9000 at any given time. Given the business metric one can estimate what is the maximum number of task that can be cancelled
 
 ### To Test
 
