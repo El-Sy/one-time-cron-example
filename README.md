@@ -25,7 +25,7 @@
 ### To Enhance
 1. Each cron to tackle a pool of tasks that is within the time range (e.g. 10 mins *after* current time for a less punitive system)
 2. Before cron is created, check if there is any crons that will be executed 5 mins after the current intended execute time. If there is, skip cron creation
-3. Periodic check of current crons and clean up
+3. Periodic check of current crons and clean up any expired crons
 4. Stresss test up to 9000 cron tasks. Some say it is possible to hit such a number
 
 
