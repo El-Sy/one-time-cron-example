@@ -8,7 +8,7 @@
 ### When not to use dynamic crons
 
 1. If vms have very very small memory space
-2. when one time task exceeds more than a threshold of 9000
+2. when one time tasks exceeds more than a threshold of 9000
 
 ### To Test
 
