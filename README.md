@@ -2,7 +2,7 @@
 
 ### Why use one time cron
 
-1. Reduce number of io calls to db or webserver using repetitive  
+1. Reduce number of io calls to db or webserver compared to a periodic cron
 2. Execute when only needed
 
 ### To Test
