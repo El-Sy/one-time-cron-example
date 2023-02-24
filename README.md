@@ -30,5 +30,5 @@
 
 
 ### More Research
-Check out how others implement many one time cron task. When every second a task is required, a good vm with a single cron and a database that supports high reads and write probably makes sense.
+Check out how others implement many one time cron task. When every second a task is required, a good vm with a single cron and a database that supports high reads and writes probably makes sense.
 
