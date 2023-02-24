@@ -19,4 +19,5 @@
 
 ### To Enhance
 1. Periodic check of current crons and clean up
+2. Stresss test up to 9000 cron tasks. Some say it is possible to hit such a number
 
