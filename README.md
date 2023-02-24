@@ -5,6 +5,11 @@
 1. Reduce number of io calls to db or webserver compared to a periodic cron
 2. Execute when only needed
 
+### When not to use dynamic crons
+
+1. If vms have very very small memory space
+2. when one time task exceeds more than a threshold of 9000
+
 ### To Test
 
 1. Start the App
