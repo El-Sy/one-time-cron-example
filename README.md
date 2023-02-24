@@ -23,7 +23,8 @@
 ![Screenshot 2023-02-24 at 9 41 12 PM](https://user-images.githubusercontent.com/23375702/221194781-5252e29c-ba00-4135-ab0f-ab70b1745372.png)
 
 ### To Enhance
-1. Each cron to tackle a pool of tasks that is within the time range (e.g. 5-10 mins before and after)
-2. Periodic check of current crons and clean up
-3. Stresss test up to 9000 cron tasks. Some say it is possible to hit such a number
+1. Each cron to tackle a pool of tasks that is within the time range (e.g. 10 mins *after* current time for a less punitive system)
+2. Before cron is created, check if there is any crons that will be executed 5 mins after the current intended execute time
+3. Periodic check of current crons and clean up
+4. Stresss test up to 9000 cron tasks. Some say it is possible to hit such a number
 
