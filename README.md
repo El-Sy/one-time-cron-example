@@ -1,6 +1,6 @@
-### Simple One Time Cron Scheduling
+### Simple Dynamic One Time Cron Scheduling
 
-### Why use one time cron
+### Why use many dynamic one-time cron
 
 1. Reduce number of io calls to db or webserver compared to a periodic cron for small number
 2. Execute when only needed
