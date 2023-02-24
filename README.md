@@ -13,5 +13,10 @@
 3. Observe log execution
 4. Call GET /crons to see number of crons left
 
+### Test Logs
+
+![Screenshot 2023-02-24 at 9 41 12 PM](https://user-images.githubusercontent.com/23375702/221194781-5252e29c-ba00-4135-ab0f-ab70b1745372.png)
+
 ### To Enhance
 1. Period check of current crons and clean up
+
