@@ -24,7 +24,7 @@
 
 ### To Enhance
 1. Put them in a queue. Check if there is a specific enqueue dequeue module for Nestjs. Only execute one dynamic cron at a time. When executed, set the next time to be executed.
-2. Each cron to tack a pool of tasks that is within the time range (e.g. 5-10 mins before and after)
+2. Each cron to tackle a pool of tasks that is within the time range (e.g. 5-10 mins before and after)
 3. Periodic check of current crons and clean up
 4. Stresss test up to 9000 cron tasks. Some say it is possible to hit such a number
 
