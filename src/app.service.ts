@@ -11,8 +11,7 @@ export class AppService {
   scheduleSingleTask(request: ScheduleSingleTaskDto) {
     const executeDate = new Date(request.executeAt);
     const cronName = 'task_' + executeDate.getTime();
-    console.log(this.createSpecificDayCronString(executeDate));
-    console.log(new Date());
+    this.logger.log('cron created on ' + new Date());
     const job = new CronJob(
       this.createSpecificDayCronString(executeDate),
       () => {
