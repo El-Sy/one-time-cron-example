@@ -16,7 +16,7 @@ export class AppService {
     const job = new CronJob(
       this.createSpecificDayCronString(executeDate),
       () => {
-        this.logger.log('cron executed at' + new Date());
+        this.logger.log('cron executed on ' + new Date());
         this.schedulerRegistry.deleteCronJob(cronName);
       },
     );
