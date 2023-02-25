@@ -29,6 +29,8 @@
 4. Stresss test up to 9000 cron tasks. Some say it is possible to hit such a number
 
 
-### More Research
+### Research Notes
+- https://stackoverflow.com/questions/72923253/nestjs-start-a-task-schedular-from-specific-time
+
 Check out how others implement many one time cron task. When every second a task is required, a good vm with a single cron and a database that supports high reads and writes probably makes sense.
 
